@@ -102,3 +102,23 @@
   border-radius: 8px;
   margin-bottom: 8px;
 }
+
+/* Quote section style */
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin-left: auto;
+}
