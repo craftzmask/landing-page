@@ -54,7 +54,7 @@
   color: #e5e7eb;
   border: none;
   border-radius: 8px;
-  padding: 6px 24px;
+  padding: 6px 26px;
   margin-top: 10px;
 }
 
@@ -106,7 +106,7 @@
 /* Quote section style */
 .quote {
   background-color: #e5e7eb;
-  padding: 100px 200px;
+  padding: 100px 300px;
   display: flex;
   flex-direction: column;
 }
@@ -121,4 +121,39 @@
 .quote-author {
   font-weight: bold;
   margin-left: auto;
+}
+
+/* Call action section style */
+.call-action {
+  padding: 100px 150px;
+}
+
+.action-content {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+}
+
+.action-button {
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+  border: 2px #e5e7eb solid;
+  border-radius: 8px;
+  padding: 6px 26px;
+  align-self: center;
 }
