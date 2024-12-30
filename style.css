@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Style header section */
+.header {
+  background-color: #1f2937;
+  padding: 1rem 28rem 10rem 28rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.logo {
+  font-size: 24px;;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Style hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.hero > * {
+  flex: 1;
+}
+
+.hero-content {
+  max-width: 400px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  margin: 0px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  padding: 8px 24px;
+  border-radius: 6px;
+  border: none;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+/* Common */
+.logo,
+.hero-main-text,
+.hero-button {
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+a,
+.hero-secondary-text,
+.hero-image {
+  color: #e5e7eb;
+  font-size: 18px;
+}
