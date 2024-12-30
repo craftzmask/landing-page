@@ -115,11 +115,19 @@ a {
 /* Style quote section */
 .quote {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   background-color: #e5e7eb;
-  padding: 7rem 33rem;
   margin-top: 7rem;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 0;
+  max-width: 800px;
+  gap: 1rem;
 }
 
 .quote-text {
