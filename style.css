@@ -66,9 +66,6 @@ a {
 }
 
 .hero-button {
-  background-color: #3882f6;
-  padding: 8px 24px;
-  border-radius: 6px;
   border: none;
 }
 
@@ -136,10 +133,35 @@ a {
   font-size: 24px;
 }
 
+/* Style call action section */
+.call-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: 7rem auto;
+  padding: 3rem 4rem;
+  border-radius: 10px;
+}
+
+.call-action-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.call-action-secondary-text {
+  color: #e5e7eb;
+}
+
+.call-action-button {
+  border: 2px solid #f9faf8;
+}
+
 /* Common */
 .logo,
-.hero-main-text,
-.hero-button {
+.hero-main-text {
   color: #f9faf8;
   font-weight: bold;
 }
@@ -155,4 +177,13 @@ a,
 .quote-text {
   font-size: 36px;
   color: #1f2937;
+}
+
+.hero-button,
+.call-action-button {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  color: #f9faf8;
+  font-weight: bold;
+  border-radius: 6px;
 }
