@@ -159,6 +159,14 @@ a {
   border: 2px solid #f9faf8;
 }
 
+/* Style footer section */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 2rem;
+}
+
 /* Common */
 .logo,
 .hero-main-text {
