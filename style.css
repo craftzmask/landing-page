@@ -1,21 +1,27 @@
-body {
+* {
   padding: 0;
   margin: 0;
-  height: 100vh;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", serif;
 }
 
 /* Style header section */
 .header {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
   background-color: #1f2937;
-  padding: 1rem 28rem 10rem 28rem;
+  padding: 1rem 28rem 8rem 28rem;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6rem;
 }
 
 .logo {
@@ -55,6 +61,10 @@ a {
   margin: 0px;
 }
 
+.hero-secondary-text {
+  margin: 1rem 0;
+}
+
 .hero-button {
   background-color: #3882f6;
   padding: 8px 24px;
@@ -68,6 +78,45 @@ a {
   align-items: center;
   background-color: gray;
 }
+
+/* Style body */
+/* Style information section */
+.info {
+  text-align: center;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 3rem 0;
+  color: #1f2937;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 8px;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.card-caption {
+  color: gray;
+}
+
 
 /* Common */
 .logo,
