@@ -402,6 +402,12 @@ body {
   border-radius: 4px;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact__button:hover {
+  background-color: #075E8E;
 }
 
 /*Footer section*/
