@@ -84,15 +84,19 @@ body {
   max-width: 1000px;
 }
 
+.hero__controls {
+  margin-top: 1rem;
+}
+
 .hero__button-primary {
   border: none;
   background-color: var(--primary);;
   color: #f5f5f5;
-  padding: 12px 24px;
+  padding: 12px 32px;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .hero__button-primary:hover {
